@@ -1,22 +1,20 @@
-source ~/.vim/vimrc
+set nocompatible              " be iMproved, required
+filetype off                  " required
 :colorscheme slate
 
-if has("gui_macvim")
-    let macvim_hig_shift_movement = 1
-endif
+" set the runtime path to include Vundle and initialize
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
+Plugin 'VundleVim/Vundle.vim'
+Plugin 'kchmck/vim-coffee-script'
+Plugin 'vim-ruby/vim-ruby'
+Plugin 'tpope/vim-rails'
+Plugin 'tomlion/vim-solidity'
+Plugin 'luochen1990/rainbow'
+call vundle#end()            " required
+filetype plugin indent on    " required
 
-:syntax on
-:set smartindent
-:set shiftwidth=2
-:set tabstop=2
-:set expandtab
-:set number
+syntax on
+:set tabstop=8 expandtab shiftwidth=4 softtabstop=4 number
+let g:rainbow_active = 1 "0 if you want to enable it later via :RainbowToggle
 :set clipboard=unnamed
-:set backspace=indent,eol,start
-
-
-au! Syntax hsql source /Users/Joshua/projects/server_scripts/hive.vim
-au VimEnter * RainbowParenthesesToggle
-au Syntax * RainbowParenthesesLoadRound
-au Syntax * RainbowParenthesesLoadSquare
-au Syntax * RainbowParenthesesLoadBraces
