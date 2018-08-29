@@ -7,7 +7,7 @@
     lol = log --graph --decorate --pretty=oneline --abbrev-commit --all
     l10 = log --pretty=oneline --abbrev-commit --all --decorate --graph --max-count=10
     add-modified = status | grep 'modified' | ruby -e "puts STDIN.read.gsub(/.*:/,'').gsub(/\n/,'')" | xargs git add
-	please = push --force-with-lease
+    please = push --force-with-lease
 [color]
     ui = auto
 [color "branch"]
