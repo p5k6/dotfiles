@@ -76,6 +76,7 @@ export PATH=/usr/local/bin:$PATH:/opt/nginx/sbin:$HOME/bin
 export AWS_REGION=us-east-1
 export PATH="/Users/Josh/miniconda3/bin:$PATH"
 export GITHUB_TOKEN= #redacted
+export JIRA_TOKEN= #redacted
 
 export PATH="/usr/local/opt/postgresql@9.6/bin:/usr/local/lib/node_modules:$PATH"
 export AWS_DEFAULT_REGION=us-east-1
