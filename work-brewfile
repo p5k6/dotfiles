@@ -1,41 +1,325 @@
-
-# tap repositories and their packages
-
-tap homebrew/cask
-
-# Other Homebrew packages
-brew brew-file
-brew coreutils
-brew curl
-brew deis
-brew gdbm
-brew git
-brew gnu-sed
-brew gnuplot
-brew go
-brew graphicsmagick
-brew graphviz
-brew imagemagick
-brew jq
-brew less
-brew mysql@5.7
-brew node
-brew openssl
-brew pipenv
-brew postgresql@9.6
-brew python
-brew python@2
-brew readline
-brew rsync
-brew sqlite
-brew the_silver_searcher
-brew vim
-brew wget
-brew xz
-brew zsh
-brew zsh-completions
-
-# App Store applications
-appstore 405843582 Alfred (1.2)
-appstore 483014855 Browser Fairy (1.7.6)
-appstore 557168941 Tweetbot (2.5.8)
+abseil
+ack
+aom
+apache-arrow
+apache-arrow-glib
+apr
+apr-util
+aribb24
+assimp
+autoconf
+autoconf@2.69
+automake
+avro-c
+aws-iam-authenticator
+aws-sdk-cpp
+base64
+bash
+bdw-gc
+berkeley-db
+berkeley-db@5
+bison
+brew-file
+brotli
+bzip2
+c-ares
+ca-certificates
+cairo
+certifi
+cjson
+cmake
+coreutils
+cowsay
+curl
+dav1d
+dbus
+docker
+docutils
+double-conversion
+duktape
+eksctl
+elm
+enca
+exiv2
+expect
+ffmpeg
+flac
+flyway
+fontconfig
+freetype
+frei0r
+fribidi
+fzf
+gawk
+gcc
+gd
+gdb
+gdbm
+gdk-pixbuf
+geos
+gettext
+gexiv2
+gflags
+ghostscript
+giflib
+git
+glib
+glog
+gmp
+gnu-sed
+gnuplot
+gnutls
+go
+gobject-introspection
+gon
+gpp
+graphicsmagick
+graphite2
+graphviz
+grep
+groff
+grpc
+gts
+guile
+hadolint
+harfbuzz
+hcl2json
+helm
+highway
+hugo
+hunspell
+hwloc
+icu4c
+imagemagick
+imath
+imlib2
+inih
+intltool
+isl
+itstool
+jansson
+jasper
+jbig2dec
+jemalloc
+jenv
+jmeter
+jpeg
+jpeg-turbo
+jpeg-xl
+jq
+json-c
+jsoncpp
+kafkacat
+kcat
+krb5
+kubernetes-cli
+lame
+leptonica
+less
+libarchive
+libass
+libavif
+libb2
+libbluray
+libcaca
+libcbor
+libcerf
+libde265
+libev
+libevent
+libffi
+libfido2
+libgit2
+libheif
+libidn
+libidn2
+liblqr
+liblwgeom
+libmicrohttpd
+libmng
+libmpc
+libnghttp2
+libogg
+libomp
+libpaper
+libpng
+libproxy
+libpthread-stubs
+libraw
+librdkafka
+librist
+librsvg
+libsamplerate
+libserdes
+libsndfile
+libsodium
+libsoxr
+libssh
+libssh2
+libtasn1
+libtiff
+libtool
+libunibreak
+libunistring
+libuv
+libvidstab
+libvmaf
+libvorbis
+libvpx
+libx11
+libxau
+libxcb
+libxdmcp
+libxext
+libxml2
+libxrender
+libyaml
+little-cms2
+llvm
+lolcat
+lua
+lynx
+lz4
+lzlib
+lzo
+m4
+make
+mas
+maven
+mbedtls
+md4c
+meson
+mkcert
+mosh
+mpdecimal
+mpfr
+mpg123
+mplayer
+mysql
+mysql@5.7
+nasm
+ncurses
+neo4j
+netpbm
+nettle
+nghttp2
+ninja
+node
+numpy
+oniguruma
+openblas
+opencore-amr
+openexr
+openjdk
+openjdk@11
+openjdk@8
+openjpeg
+openldap
+openssl@1.1
+openssl@3
+openvino
+opus
+orc-tools
+p11-kit
+pango
+parallel
+pcre
+pcre2
+peco
+perl
+pixman
+pkg-config
+popt
+postgresql@11
+postgresql@15
+postgresql@9.6
+proj
+proj@7
+protobuf
+protobuf-c
+protobuf@21
+psutils
+pugixml
+pv
+pyenv
+pyenv-virtualenv
+pygments
+python-certifi
+python-charset-normalizer
+python-distlib
+python-filelock
+python-idna
+python-jinja
+python-markupsafe
+python-packaging
+python-platformdirs
+python-requests
+python-tabulate
+python-urllib3
+python@3.10
+python@3.11
+python@3.12
+python@3.9
+qt
+qt@5
+rapidjson
+rav1e
+rbenv
+re2
+readline
+redis
+ripgrep
+rsync
+rtmpdump
+rubberband
+ruby
+ruby-build
+rust
+scala@2.11
+scons
+sdl2
+shared-mime-info
+snappy
+speex
+sphinx-doc
+sqlite
+srt
+stunnel
+svt-av1
+swig
+tbb
+tcl-tk
+tesseract
+tfenv
+the_silver_searcher
+theora
+thrift
+tox
+tree
+uchardet
+unbound
+unixodbc
+utf8proc
+vim
+virtualenv
+watch
+webp
+wget
+x264
+x265
+xorgproto
+xsv
+xvid
+xxhash
+xz
+yajl
+yarn
+yasm
+z3
+zeromq
+zimg
+zlib
+zsh
+zsh-completions
+zstd
+aws-vault
